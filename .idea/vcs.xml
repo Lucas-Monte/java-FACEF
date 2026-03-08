@@ -2,8 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Exercicio 1/GerenciamentoConta" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Exercicio 2/Streaming" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Exercicio 3/PainelBasquete" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lista de Exercicios 01/Exercicio 1/GerenciamentoConta" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lista de Exercicios 01/Exercicio 2/Streaming" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Lista de Exercicios 01/Exercicio 3/PainelBasquete" vcs="Git" />
   </component>
 </project>
