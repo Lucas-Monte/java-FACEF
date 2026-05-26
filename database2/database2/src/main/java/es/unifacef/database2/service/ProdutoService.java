@@ -26,5 +26,25 @@ public class ProdutoService {
         return repo.findById(id);
     }
 
+    public Produto salvar(Produto produto) {
+        return repo.save(produto); //retorna o produto inserido
+    }
+
+    public boolean deletarPorId(Long id) {
+        if (repo.existsById(id)) {
+            repo.deleteById(id);
+            return true;
+        }
+        return false;
+    }
+
+    public Produto atualizar(Produto novo, Long id) {
+        if (repo.existsById(id)) {
+            novo.setId(id);
+            return repo.save(novo);
+        }
+        return null;
+    }
+
 
 }

@@ -16,7 +16,7 @@ public class Produto {
     @Column (nullable = false)
     private String nome;
     @Column (nullable = false)
-    private String preco;
+    private float preco;
     @Column(length = 500)
     private String descricao;
 
@@ -36,11 +36,11 @@ public class Produto {
         this.nome = nome;
     }
 
-    public String getPreco() {
+    public float getPreco() {
         return preco;
     }
 
-    public void setPreco(String preco) {
+    public void setPreco(float preco) {
         this.preco = preco;
     }
 
